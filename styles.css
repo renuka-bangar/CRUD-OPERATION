@@ -1,0 +1,46 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f5f5f5;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mob-table {
+    max-width: 800px;
+    padding: 20px 25px;
+    background-color: #fff;
+    margin: 30px 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #435d7d;
+    color: #fff;
+    padding: 16px 30px;
+}
+
+.add {
+    background-color: #5cb85c;
+    color: white;
+}
+
+th, td {
+    text-align: center;
+}
+
+.btn {
+    padding: 3px 20px;
+    min-width: 80px;
+}

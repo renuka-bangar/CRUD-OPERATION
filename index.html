@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha384-1WLuk38G+OqZT2U+KJhndd+uBuw5c+zV/mh2LdyRzj5wP3dT7MjDQ+aq5Kgq6F2A" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container mob-table">
+        <div class="headers">
+            <h2 class="table-title">MOBILES DATA</h2>
+            <button class="btn add">ADD+</button>
+        </div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>MOBILE</th>
+                    <th>PRICE</th>
+                    <th>RAM</th>
+                    <th>STORAGE</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="mobiles-table-body">
+                <!-- Placeholder row for new entries -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
